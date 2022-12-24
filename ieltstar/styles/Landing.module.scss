@@ -1,0 +1,148 @@
+.toolBar {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  background-color: white;
+}
+.logo {
+  color: rgb(27, 56, 83);
+  font-weight: 700;
+  font-size: 40px;
+  cursor: pointer;
+}
+.link {
+  color: rgb(22, 27, 44);
+}
+.menuIcon {
+  color: rgb(56, 124, 136);
+}
+
+.formContainer {
+  overflow-x: hidden;
+  border-radius: 10px;
+  color: white;
+  flex-grow: 1;
+  padding: 10px;
+  max-width: 50%;
+  margin: 30px auto;
+  background-color: rgb(22, 27, 44);
+}
+.form {
+  border-radius: 10px;
+  color: white;
+  margin-top: 30px;
+}
+.formHeading {
+  text-align: center;
+}
+.heroBox {
+  width: 100%;
+  display: flex;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+.gridContainer {
+  display: flex;
+  align-items: center;
+  max-width: 1300px;
+  padding: 50px;
+}
+.aboutUsContainer {
+  width: 100%;
+  display: flex;
+  min-height: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+.aboutUsSubtitle {
+  opacity: 0.7;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.title {
+  padding-bottom: 15px;
+}
+.subtitle {
+  opacity: 0.4;
+  padding-bottom: 30px;
+}
+.largeImage {
+  width: 100%;
+}
+.smallImage {
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+}
+.sectionGridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 500px;
+  background-color: rgb(22, 27, 44);
+}
+.sectionGridItem {
+  background-color: #f2f0f1;
+  text-align: center;
+  padding: 30px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px !important;
+}
+.inputField {
+  color: #f2f0f1;
+  margin-bottom: 20px;
+}
+.textArea {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 10px;
+}
+.footerContainer {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  padding: 20px;
+  justify-content: center;
+  background-color: #f2f0f1;
+  flex-direction: column;
+}
+.footerText {
+  padding-bottom: 10px;
+}
+.footerDate {
+  opacity: 0.4;
+}
+.testimonialCard {
+  background-color: rgb(22, 27, 44);
+  padding: 10px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+.testimonialStatement {
+  padding-bottom: 25px;
+}
+.avatar {
+  margin-right: 10px;
+}
+.testimonialPosition {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.bgWrap {
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+  color: rgb(22, 27, 44);
+}
+
+.button {
+  background-color: rgb(56, 124, 136);
+  color: white;
+}

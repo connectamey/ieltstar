@@ -1,0 +1,40 @@
+//styling for grid
+.question_view_main_grid_2_columns {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+//styling for card shadows
+.question_view_card {
+    display: block;
+    overflow: auto;
+    margin: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 4px 8px 2px rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .question_view_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  //internal padding
+  .question_view_card_container {
+    padding: 2px 16px;
+  }
+
+  .Quiz_radio_input {
+    font-size: medium;
+    // width: 50%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background-color: transparent;
+}
+.question_view_textarea{
+  width: 100%;
+  font-size: medium;
+  font-family: "Source Sans Pro", sans-serif; 
+}
